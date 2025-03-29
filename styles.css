@@ -1,13 +1,28 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
-header {
-    background-color: black;
+.navbar {
+    background-color: #1a1a1a;
     color: white;
-    padding: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centering content */
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;
+}
+
+.title {
     font-size: 24px;
+    font-weight: bold;
 }
 
 .product-list {
@@ -38,22 +53,4 @@ header {
     padding: 10px;
     border: none;
     cursor: pointer;
-}
-.navbar {
-  background-color: #1a1a1a;
-  color: white;
-  padding: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  height: 40px;
-  width: 40px;
-  margin-right: 10px;
-}
-
-.title {
-  font-size: 24px;
-  font-weight: bold;
 }
